@@ -6,7 +6,7 @@
 
 using std::vector;
 
-namespace img {
+
 
 	class color {
 	private:
@@ -39,5 +39,6 @@ namespace img {
 		unsigned int get_width();
 		unsigned int get_height();
 		bool save_ppm(std::string path);
+		vector<vector<color>> get_map();
+		void set_map(vector<vector<color>> in);
 	};
-}

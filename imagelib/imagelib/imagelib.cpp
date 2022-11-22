@@ -5,8 +5,10 @@
 #include "framework.h"
 #include "img.h"
 
+
+
 // TODO: This is an example of a library function
-namespace img {
+
 
 	/*  COLOR CLASS DEFINITIONS  */
 	color::color(uint8_t red, uint8_t green, uint8_t blue) {
@@ -91,4 +93,12 @@ namespace img {
 
 		return true;
 	}
-}
+
+
+	vector<vector<color>> image::get_map() {
+		return map;
+	}
+
+	void image::set_map(vector<vector<color>> in) {
+		map = in;
+	}

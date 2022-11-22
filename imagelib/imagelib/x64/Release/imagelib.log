@@ -1,2 +1,3 @@
-﻿  imagelib.cpp
-  imagelib.vcxproj -> C:\Users\Andrei Gheorghiu\source\repos\imagelib\x64\Release\imagelib.lib
+﻿  pch.cpp
+  imagelib.cpp
+  imagelib.vcxproj -> C:\Users\bitma\source\repos\imagelib\imagelib\x64\Release\imagelib.lib
